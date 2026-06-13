@@ -1,0 +1,7 @@
+[CASE 1] user_id=-1: без персональных рекомендаций
+status=ok strategy=popular_fallback online_count=0 tracks=[53404, 33311009, 178529, 35505245, 24692821]
+[CASE 2] user_id=0: персональные есть, онлайн-истории нет
+status=ok strategy=offline_only online_count=0 tracks=[99262, 589498, 590262, 590303, 590692]
+[CASE 3] user_id=3: персональные есть и онлайн-история есть
+status=ok strategy=mixed online_count=3 tracks=[21642265, 24692821, 25995209, 27317251, 29213451]
+TEST_STATUS: PASS
